@@ -89,7 +89,7 @@ def download_script():
         return
     
     print(f"{Colors.BLUE}Downloading freerejoin.py...{Colors.NC}")
-    if run_command('curl -L -o freerejoin.py "https://gofile.io/d/mpuQDV"'):
+    if run_command('curl -L -o freerejoin.py "https://store8.gofile.io/download/web/750f3a40-7641-4032-9cf8-365e82c58141/freerejoin.py"'):
         print(f"{Colors.GREEN}Script downloaded successfully!{Colors.NC}")
         print(f"Location: {os.path.join(os.getcwd(), 'freerejoin.py')}")
     else:
